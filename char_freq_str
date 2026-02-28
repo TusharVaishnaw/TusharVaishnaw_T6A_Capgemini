@@ -9,9 +9,5 @@ for i in range(0,n-1):
     else:
         ans+=s1[i]+str(cnt)
         cnt=1
-if(s1[n-1]==s1[n-2]):
-    cnt+=1
-    ans+=s1[n-1]+str(cnt)
-else:
-    ans+=s1[n-1]+str(1)
+ans += s1[n-1] + str(cnt)
 print(ans)
