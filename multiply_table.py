@@ -1,9 +1,0 @@
-n=int(input('enter a number: '))
-cnt=1
-while(cnt<=10):
-    print(n,'x',cnt,'=',cnt*n,'\n')
-    cnt+=1
-cnt=1
-while(cnt<=10):
-    print(f"{n}x{cnt}={n*cnt}")
-    cnt+=1
