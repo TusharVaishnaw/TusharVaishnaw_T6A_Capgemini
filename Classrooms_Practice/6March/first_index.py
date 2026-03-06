@@ -6,7 +6,8 @@ def func(s,ch):
         if i==ch:
             return cnt
         cnt+=1
+    return "not found"
 
 s=input('enter the string: ')
 ch=input('enter the char to be searched: ')
-print('first index is: ',func(s,ch))
+print('first index is ',func(s,ch))
